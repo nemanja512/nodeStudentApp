@@ -21,4 +21,6 @@ router.post('/adduser', controller.addUser);
  */
 router.delete('/deleteuser/:id', controller.deleteUser);
 
+router.get('/getuser/:id', controller.getUserByID);
+
 module.exports = router;
